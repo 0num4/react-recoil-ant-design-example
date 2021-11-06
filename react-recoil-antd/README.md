@@ -23,6 +23,10 @@ atom<T>({
 
 Atomの宣言はreduxでいうところのStoreのようなもの
 
+read部分はuseRecoilValue
+
+useSetRecoilStateはsetterを返す
+
 ## recoilのselectorとは
 
 selectorとはatomを操作した結果を返すもの。filter操作とかも含まれる。
