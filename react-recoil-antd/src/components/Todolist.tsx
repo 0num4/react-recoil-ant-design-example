@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil"
-import todoAtomState from "../todoatomstate"
+import todoAtomState from "../state/todoatomstate"
 import { seachedTodoListSelector } from "../selectors/searchlistselector";
 
 const TodoList = () => {

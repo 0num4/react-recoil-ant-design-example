@@ -1,7 +1,8 @@
 import { atom } from "recoil";
+import { RecoilAtomKeys } from "./recoilkeys";
 
 const todoAtomState = atom<string>({
-    key: "todoAtom",
+    key: RecoilAtomKeys.TODO_DISPLAY_STATE,
     default: "",
 });
 

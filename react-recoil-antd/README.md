@@ -31,6 +31,11 @@ useSetRecoilStateはsetterを返す
 
 selectorとはatomを操作した結果を返すもの。filter操作とかも含まれる。
 
+## ディレクトリ構成について
+src
+┗state(or store): recoilのstateを管理するディレクトリ
+┗components: components
+┗pages: pages
 
 # Getting Started with Create React App
 

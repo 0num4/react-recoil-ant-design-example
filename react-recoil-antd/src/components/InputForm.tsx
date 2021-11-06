@@ -1,5 +1,5 @@
 import { useSetRecoilState } from "recoil";
-import todoAtomState from "../todoatomstate";
+import todoAtomState from "../state/todoatomstate";
 
 const InputForm = () => {
     const setTodo = useSetRecoilState<string>(todoAtomState);
