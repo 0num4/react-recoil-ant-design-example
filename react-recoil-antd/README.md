@@ -1,3 +1,21 @@
+# react-recoil-antd
+
+https://dev.classmethod.jp/articles/react-recoil-weather-app/
+お天気アプリを…
+
+# memo
+yarn add recoil
+yarn add @types/recoil
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
