@@ -13,8 +13,19 @@ yarn add @types/recoil
 
 useSetRecoilStateとuseRecoilValueがある。
 
+atom<T>({
 
+})関数は、内部ではkeyとdefaultを要求するが、defaultはそのatomに入るデフォルト値で、string[]であれば、下記のような値
 
+[
+    "aaa","bbb","ccc"
+]
+
+Atomの宣言はreduxでいうところのStoreのようなもの
+
+## recoilのselectorとは
+
+selectorとはatomを操作した結果を返すもの。filter操作とかも含まれる。
 
 
 # Getting Started with Create React App

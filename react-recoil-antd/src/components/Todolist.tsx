@@ -1,8 +1,9 @@
 import { useRecoilValue } from "recoil"
-import todoAtomState from "../todoatom"
+import todoAtomState from "../todoatomstate"
+import { seachedTodoListSelector } from "../selectors/searchlistselector";
 
 const TodoList = () => {
-    const todo = useRecoilValue<string>(todoAtomState);
+    const todo = useRecoilValue<string>(seachedTodoListSelector);
     return (
         <>
             <span style={{ display: "block"}}>{todo}</span>
