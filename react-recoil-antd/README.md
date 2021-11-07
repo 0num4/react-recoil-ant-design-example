@@ -37,12 +37,20 @@ src
 ┗components: components
 ┗pages: pages
 
-
 ## antd+lessについて
 
 https://ant.design/docs/react/use-with-create-react-app
 
 **craco.config.jsはtsなどにしなければうまく入るので無理に凝らずに素直にcraco.config.jsとrequire importを使う**
+
+## react erroorboundaryについて
+react 16から導入された概念で自身の子コンポーネントツリーで発生したjsエラーをキャッチし、エラーを記録し、クラッシュしたコンポーネントツリーの代わりにフォールバック用のUIを表示するreact componmets
+
+**ただし非同期コードのエラーは取得しない**
+
+**errorboundaryはClass componentsである必要がある！！**
+**tips: errorboundaryというcomponents nameは先にantdが使いつぶしてしまうのでほかの名前にする必要がある…**
+
 
 # Getting Started with Create React App
 
