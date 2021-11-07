@@ -37,6 +37,13 @@ src
 ┗components: components
 ┗pages: pages
 
+
+## antd+lessについて
+
+https://ant.design/docs/react/use-with-create-react-app
+
+**craco.config.jsはtsなどにしなければうまく入るので無理に凝らずに素直にcraco.config.jsとrequire importを使う**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
