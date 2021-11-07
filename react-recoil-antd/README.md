@@ -27,9 +27,17 @@ read部分はuseRecoilValue
 
 useSetRecoilStateはsetterを返す
 
+**tips:さらにreadとwrite両方できるuseRecoilStateというのもある**
+
 ## recoilのselectorとは
 
-selectorとはatomを操作した結果を返すもの。filter操作とかも含まれる。
+selectorとはatomを操作した結果を返すもの。filter操作とかも含まれる。ほかにもstateの結果によってapiをonchange的に投げた結果(副作用)としてのselectorみたいな使い方もある。
+
+### selectorのgetの引数のgetについて
+https://zenn.dev/nekoniki/articles/406087e43f4865
+GetRecoilValue型のget(プロパティ名が同じなのでややこしいですが・・・)をプロパティに持つオブジェクトを受け取る関数です。
+
+GetRecoilValueはuseRecoilValueと同じようなものでこのメソッドを使ってstateにアクセスすると値が読み取れる
 
 ## ディレクトリ構成について
 src
